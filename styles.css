@@ -1,0 +1,6 @@
+.cards-container{
+    display:flex ;
+}
+IMG {
+    object-fit: fill;
+}

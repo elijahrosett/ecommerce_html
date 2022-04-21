@@ -21,11 +21,13 @@ img {
     background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(255, 255, 255, 0), rgb(0, 0, 0, 1))
     
 }
+
+
 .nav{
     display: flex;
-    flex-wrap: wrap;
-     align-items: center;
-     justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
     height: 100px;
     padding: 0 100px;
 }
@@ -73,4 +75,11 @@ img {
 }
 .title_float_right {
     float:right
+}
+#img {
+    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
 }

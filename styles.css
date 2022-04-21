@@ -21,13 +21,30 @@ img {
     background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(255, 255, 255, 0), rgb(0, 0, 0, 1))
     
 }
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+    height: 100px;
+    padding: 0 100px;
+}
+.mag-glass{
+    height: 30px;
+    width: auto;
+}
 .nav_bar_padding {
-    padding-right: 15px;
+    font-size: x-large;
+    padding-right: 50px;
+    list-style-type: none;
     
 }
 
-.center_logo {
-    text-align: center;
+.center_logo{
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
 }
 
 .container {

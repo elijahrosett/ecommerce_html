@@ -45,3 +45,15 @@ img {
    object-fit: cover;
    padding: 1rem;
 }
+.flex_align {
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.title_float_left{
+    float: left;
+}
+.title_float_right {
+    float:right
+}

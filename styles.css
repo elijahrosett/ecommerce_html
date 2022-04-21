@@ -9,11 +9,8 @@ html {
     box-sizing:border-box;
     font-size: 62.5%;
 }
-#img {
-
-    width: 100%;
-    height: 300px;
-    opacity: .9;
+img {
+    max-width: 100%;
 }
 #grad1 {
     background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(255, 255, 255, 0), rgb(0, 0, 0, 1))
@@ -22,11 +19,33 @@ html {
 
 .container {
     padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: grid;
+    place-content: center;
+    height: auto;
+    width: auto;
+    max-width: 250px;
+}
+.flex-container {
+    flex-wrap: wrap;
+    padding: 1px;
+    margin: 1px;
+    border: 1px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     height: 50px;
     width: auto;
+    max-width: 250px;
+    display: grid;
+    place-content: center;
+    padding: 5px;
+    margin: 10px;
     
+}
+.product_image{
+    height: auto;
+    width: auto;
 }

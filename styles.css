@@ -16,8 +16,14 @@ img {
     background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(255, 255, 255, 0), rgb(0, 0, 0, 1))
     
 }
+.nav_bar_padding {
+    padding-right: 15px;
+    
+}
 
-
+.center_logo {
+    text-align: center;
+}
 
 .container {
     display: flex;

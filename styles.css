@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: inherit;
 }
+footer {
+    height: 100px;
+    width: auto;
+    background-color: #bf7631;
+}
 html {
     box-sizing:border-box;
     font-size: 62.5%;
